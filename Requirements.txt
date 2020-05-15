@@ -1,0 +1,13 @@
+	Components Used
+	1.	Arduino uno  (FOR POWER SUPPLY)
+	2.	ESP8266 wi-fi module.
+	3.	Relay channels.
+	4.	Breadboard.
+	5.	Jumper wires
+	6.	Smartphone WITH ACTIVE INTERNET
+
+	Software and libraries used
+	1.	BLYNK APPLICATION (TO TRIGGER ESP8266)
+	2.	GOOGLE ASSISTANT (FOR VOICE CONTROL)
+	3.	IFTTT (APPLICATION FOR WEB REQUEST)
+	4.	BLYNK LIBRARY

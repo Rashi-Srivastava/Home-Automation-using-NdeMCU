@@ -1,0 +1,19 @@
+Code
+
+#define BLYNK_PRINT Serial
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
+char auth[] = "KjJ2y5QxLC-1TEHmO68HvyXTejw2Pnq6";
+char ssid[] = "MY_JIO";
+char pass[] = "aryaman123#";
+void setup()
+{
+  // Debug console
+  Serial.begin(9600);
+  Blynk.begin(auth, ssid, pass);
+}
+void loop()
+{
+  Blynk.run();
+}
